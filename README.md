@@ -51,7 +51,7 @@ Download the [`ImageNet (ILSVRC2012)`](http://www.image-net.org/) source file.
 
 Process `ImageNet-Sub` and `ImageNet`:
 ```bash
-cd ~/mnemonics-training/eval/process_imagenet
+cd ~/mnemonics-training/main/process_imagenet
 python generate_imagenet_subset.py
 python generate_imagenet.py
 ```
@@ -62,7 +62,7 @@ python generate_imagenet.py
 
 Download the models for CIFAR-100, ImageNet-Sub and ImageNet:
 ```bash
-cd ~/mnemonics-training/eval
+cd ~/mnemonics-training/main
 sh ./script/download_ckpt.sh
 ```
 
@@ -72,23 +72,11 @@ You may also download the checkpoints on [Google Drive](https://drive.google.com
 
 Run evaluation code with our models：
 ```bash
-cd ~/mnemonics-training/eval
+cd ~/mnemonics-training/main
 sh run_eval.sh
 ```
 
-### Training from scratch
-
-Run the experiment using v1.0:
-```bash
-cd ~/mnemonics-training/train_v1.0
-python run_exp.py
-```
-
-Run the experiment using v2.0 (with new features):
-```bash
-cd ~/mnemonics-training/train_v2.0
-python main.py
-```
+We're checking the training code. It will be updated later.
 
 ## Citation
 
