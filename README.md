@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg?style=flat-square)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-0.4.0-%237732a8?style=flat-square)](https://pytorch.org/)
 
-This repository contains the PyTorch implementation for "[Mnemonics Training: Multi-Class Incremental Learning without Forgetting](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Mnemonics_Training_Multi-Class_Incremental_Learning_Without_Forgetting_CVPR_2020_paper.pdf)". If you have any questions on this repository or the related paper, feel free to create an issue or send me an email. 
+This repository contains the PyTorch implementation for "Mnemonics Training: Multi-Class Incremental Learning without Forgetting". If you have any questions on this repository or the related paper, feel free to create an issue or send me an email. 
 
 #### Summary
 
