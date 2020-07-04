@@ -1,7 +1,6 @@
 # File types
 *.pyc
 *.npy
-*.sh
 *.tar.gz
 
 # Folders
