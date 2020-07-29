@@ -48,16 +48,16 @@ git clone git@github.com:yaoyao-liu/mnemonics-training.git
 ### Running experiments for baselines
 
 ```bash
-cd train
+cd 1_train
 python main.py --nb_cl_fg=50 --method=baseline --nb_cl=10
 python main.py --nb_cl_fg=50 --method=baseline --nb_cl=5
 python main.py --nb_cl_fg=50 --method=baseline --nb_cl=2
 ```
 
-### RRunning experiments for our method
+### Running experiments for our method
 
 ```bash
-cd train
+cd 1_train
 python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=10
 python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=5
 python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=2
