@@ -24,7 +24,7 @@ sh ./script/download_ckpt.sh
 ```
 You may also download the checkpoints on [Google Drive](https://drive.google.com/file/d/1sKO2BOssWgTFBNZbM50qDzgk6wqg4_l8/view).
 
-### Runing the evaluation
+### Running the evaluation
 
 Run evaluation code with our models：
 ```bash
