@@ -63,6 +63,18 @@ python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=5
 python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=2
 ```
 
+### Performance
+
+#### Average accuracy (%)
+
+| Method          | Dataset   | 5-phase     | 10-phase     | 25-phase    | 
+| ----------      | --------- | ----------  | ----------   |------------ |
+| [LwF](https://arxiv.org/abs/1606.09282)  | CIFAR-100 | 52.44  | 48.47   | 45.75 |
+| [LwF](https://arxiv.org/abs/1606.09282) w/ ours  | CIFAR-100 | 54.21  | 52.72   | 51.59 |
+| [iCaRL](https://arxiv.org/abs/1611.07725)  | CIFAR-100 | 58.03  | 53.01  | 48.47 |
+| [iCaRL](https://arxiv.org/abs/1611.07725) w/ ours | CIFAR-100 | 60.01  | 57.37   | 54.13 |
+
+
 
 ## Citation
 
