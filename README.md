@@ -41,14 +41,13 @@ Multi-Class Incremental Learning (MCIL) aims to learn new concepts by incrementa
 ### Clone this repository
 
 ```bash
-cd ~
 git clone git@github.com:yaoyao-liu/mnemonics-training.git
 ```
 
 ### Running experiments for baselines
 
 ```bash
-cd 1_train
+cd ./mnemonics-training/1_train
 python main.py --method=baseline --nb_cl=10
 python main.py --method=baseline --nb_cl=5
 python main.py --method=baseline --nb_cl=2
@@ -57,7 +56,7 @@ python main.py --method=baseline --nb_cl=2
 ### Running experiments for our method
 
 ```bash
-cd 1_train
+cd ./mnemonics-training/1_train
 python main.py --method=mnemonics --nb_cl=10
 python main.py --method=mnemonics --nb_cl=5
 python main.py --method=mnemonics --nb_cl=2
