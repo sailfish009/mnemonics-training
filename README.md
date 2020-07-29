@@ -74,6 +74,15 @@ python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=2
 | [iCaRL](https://arxiv.org/abs/1611.07725)  | CIFAR-100 | 58.03  | 53.01  | 48.47 |
 | [iCaRL](https://arxiv.org/abs/1611.07725) w/ ours | CIFAR-100 | 60.01  | 57.37   | 54.13 |
 
+#### Forgetting rate (%, lower is better)
+
+| Method          | Dataset   | 5-phase     | 10-phase     | 25-phase    | 
+| ----------      | --------- | ----------  | ----------   |------------ |
+| [LwF](https://arxiv.org/abs/1606.09282)  | CIFAR-100 | 45.02  | 42.50   | 39.86 |
+| [LwF](https://arxiv.org/abs/1606.09282) w/ ours  | CIFAR-100 | 40.00  | 36.50   | 34.25 |
+| [iCaRL](https://arxiv.org/abs/1611.07725)  | CIFAR-100 | 32.87  | 32.98 | 36.32 |
+| [iCaRL](https://arxiv.org/abs/1611.07725) w/ ours | CIFAR-100 | 25.93  | 26.92   | 28.92 |
+
 
 
 ## Citation
