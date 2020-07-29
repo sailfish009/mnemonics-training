@@ -93,7 +93,7 @@ Please cite our paper if it is helpful to your work:
 @inproceedings{liu2020mnemonics,
 author    = {Liu, Yaoyao and Su, Yuting and Liu, An{-}An and Schiele, Bernt and Sun, Qianru},
 title     = {Mnemonics Training: Multi-Class Incremental Learning without Forgetting},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
 pages     = {12245--12254},
 year      = {2020}
 }
