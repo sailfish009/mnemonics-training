@@ -45,38 +45,24 @@ cd ~
 git clone git@github.com:yaoyao-liu/mnemonics-training.git
 ```
 
-### Processing the datasets
+### Running experiments for baselines
 
-Download the [`ImageNet (ILSVRC2012)`](http://www.image-net.org/) source file.
-
-Process `ImageNet-Sub` and `ImageNet`:
 ```bash
-cd ~/mnemonics-training/main/process_imagenet
-python generate_imagenet_subset.py
-python generate_imagenet.py
+cd train
+python main.py --nb_cl_fg=50 --method=baseline --nb_cl=10
+python main.py --nb_cl_fg=50 --method=baseline --nb_cl=5
+python main.py --nb_cl_fg=50 --method=baseline --nb_cl=2
 ```
 
-[`CIFAR-100`](https://www.cs.toronto.edu/~kriz/cifar.html) will be downloaded automatically.
+### RRunning experiments for our method
 
-### Download models
-
-Download the models for CIFAR-100, ImageNet-Sub and ImageNet:
 ```bash
-cd ~/mnemonics-training/main
-sh ./script/download_ckpt.sh
+cd train
+python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=10
+python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=5
+python main.py --nb_cl_fg=50 --method=mnemonics --nb_cl=2
 ```
 
-You may also download the checkpoints on [Google Drive](https://drive.google.com/file/d/1sKO2BOssWgTFBNZbM50qDzgk6wqg4_l8/view?usp=sharing).
-
-### Evaluation on our models
-
-Run evaluation code with our models：
-```bash
-cd ~/mnemonics-training/main
-sh run_eval.sh
-```
-
-We're checking the training code. It will be updated later.
 
 ## Citation
 
