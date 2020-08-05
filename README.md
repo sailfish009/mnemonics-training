@@ -34,7 +34,7 @@ Multi-Class Incremental Learning (MCIL) aims to learn new concepts by incrementa
 - [tqdm](https://github.com/tqdm/tqdm)
 - [scipy](https://www.scipy.org/)
 
-> For details, please kindly refer to [this issue](https://github.com/yaoyao-liu/mnemonics-training/issues/6#issuecomment-641219407).
+> For more details, please kindly refer to [this issue](https://github.com/yaoyao-liu/mnemonics-training/issues/6#issuecomment-641219407).
 
 
 ## Running Experiments
