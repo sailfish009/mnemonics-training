@@ -29,7 +29,7 @@ Multi-Class Incremental Learning (MCIL) aims to learn new concepts by incrementa
 
 - [Python](https://www.python.org/) >= 3.6
 - [PyTorch](https://pytorch.org/) >= 0.4.0
-- [Pillow](https://pillow.readthedocs.io/en/stable/) >= 6.2.1
+- [Pillow](https://pillow.readthedocs.io/en/stable/) >= 6.0.0
 - [tensorboardX](https://github.com/lanpa/tensorboardX)
 - [tqdm](https://github.com/tqdm/tqdm)
 - [scipy](https://www.scipy.org/)
